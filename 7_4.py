@@ -18,6 +18,7 @@ for x in range(0,150):
             A[x,y]=0
 
 A = np.random.permutation(A)
+k=3
 centroids = A[:k]
 
 def hasConverged(upd, prev):
